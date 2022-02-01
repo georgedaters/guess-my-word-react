@@ -1,0 +1,57 @@
+label {
+    font-weight: bold;
+}
+
+html {
+    margin: 20px 20px 20px 20px;
+}
+
+.invalid-guess {
+    color: red;
+}
+
+.guesses,
+.guess-input {
+    margin-top: 20px;
+}
+
+.guess-input input {
+    text-transform: lowercase;
+}
+
+.guess-input input,
+.guess-input button {
+    margin-left: 6px;
+}
+
+.guess {
+    margin-left: 10px;
+}
+
+.play-again {
+    margin-top: 20px;
+}
+
+.game-result .solved-word {
+    font-weight: bold;
+    display: inline;
+    margin-left: 8px;
+    font-size: 30px;
+}
+
+.lost .solved-word {
+    color: rgb(212, 57, 57);
+}
+
+.won .solved-word {
+    color: rgb(57, 212, 57);
+}
+.game-result .remark {
+    display: inline;
+    margin-left: 12px;
+    font-style: italic;
+}
+
+.give-up {
+    margin-top: 20px;
+}
